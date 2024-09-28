@@ -1,0 +1,41 @@
+
+ #desc h1{
+    color: #000;
+ } 
+.sportsPic{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.divSports{
+    width: 300px;
+    height: 500px;
+    border: 2px solid #000;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    background-color: #1543754f;
+    color: #090909;
+}
+
+.divSports p{
+    text-align: justify;
+    color: #fff;
+}
+#BCCILogo{
+    background-image: url("./images/bccilogo.png");
+    background-repeat: no-repeat;
+    background-position: center 300px;
+}
+#NBADiv{
+    background-image: url("./images/nbalogo.png");
+    background-clip: content-box;
+    background-attachment: fixed;
+    background-position: center 300px;
+}
+#olympicsDiv{
+    background-image: url("./images/olympicslogo.png");
+    background-size:500px;
+    background-attachment: fixed;
+}
